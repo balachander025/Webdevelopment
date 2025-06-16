@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>append() Example</title>
+</head>
+<body>
+    <div id="container">
+        <p>Existing Paragraph</p>
+    </div>
+    <button onclick="addText()">Add Text</button>
+    <script>
+        function addText() {
+            let container = document.getElementById("container");
+            container.append(" - New Text Added");
+        }
+    </script>
+</body>
+</html>
